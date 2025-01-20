@@ -13,7 +13,7 @@ import matplotlib.animation as animation
 import random
 import scipy.io as scio
 
-#根据文献111：
+#根据文献：
 g = 10  # 重力加速度，单位m/s^2
 #载荷转速度变化率, 角度都是弧度
 def Load2Acceleration(nz, nx, Phi, velocity, theta):
